@@ -1,0 +1,80 @@
+body{
+    background: rgba(43, 48, 53, 1)
+  }
+  .tableDesign{
+    background: rgba(255, 255, 255,0.1);
+    }
+  .titleCard{
+    background-color: rgb(255,255,255);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 55%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgb(255,255,255);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 0px 35px 0px 35px;
+  }
+  .title{
+    color: black;
+    font-size: 50px;
+    text-align: center
+  }
+  .subtitle{
+    color: black;
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .inputDesign{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background: rgba(255, 255, 255,0.1);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .btnDesign{
+    margin-top: 50px;
+    margin-left: 10px;
+    background:rgba(43, 48, 53, 1);
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+  .btnDesign:hover{
+  background:#fff;
+  color:rgba(43, 48, 53, 1);
+}
+  .btnDesign:before,.btnDesign:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: rgba(43, 48, 53, 1);
+    transition:400ms ease all;
+  }
+  .btnDesign:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .btnDesign:hover:before,.btnDesign:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  

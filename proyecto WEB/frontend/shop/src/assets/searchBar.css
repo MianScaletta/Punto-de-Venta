@@ -1,0 +1,17 @@
+.container-search{
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.search{
+    text-align: center;
+    background: rgba(255, 255, 255,0.1);
+    border-radius: 15px;
+    font-size: 1.3em;
+    margin-left: 5px;
+    padding: 5px;
+    width: 200px;
+}
+.btnSearch{
+    margin-top: -10px;
+}
